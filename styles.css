@@ -1,0 +1,98 @@
+html{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+img{
+    display: inline-block;
+}
+
+header{
+    position: static; 
+    background: rgb(0,3,255);
+    background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 56%, rgba(255,0,0,1) 100%);
+}
+
+
+.title{
+    margin-left: 23.5em;
+    margin-right: 22.93em;
+}
+
+.canadate{
+    border: black 1px solid;
+
+    
+}
+
+#nixPic{
+    height: 600px;
+    width: 500px;
+    border: red solid 1.5px;
+    border-radius: 4px;
+}
+#otherPic{
+    height: 600px;
+    width: 500px;
+    border: blue solid 1.5px;
+    border-radius: 4px;
+
+}
+
+.canPic{
+    position: relative;
+}
+
+#nixon{
+    float: left;
+    position: fixed;
+    left: 300px;
+}
+
+#otherGuy{
+    float: right;
+    position: fixed;
+    right: 300px;
+}
+
+.cbutton{
+    background-color: blue;
+    float: none;
+    padding: 19px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.nbutton{
+    background-color: red;
+    float: none;
+    padding: 19px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.cbutton:hover{
+    opacity: 1;
+}
+
+.nbutton:hover{
+    opacity: 1;
+}
+
+
